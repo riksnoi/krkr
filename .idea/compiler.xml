@@ -12,4 +12,11 @@
       </profile>
     </annotationProcessing>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="krkr-api" options="-parameters" />
+      <module name="krkr-dao" options="-parameters" />
+      <module name="krkr-service" options="-parameters" />
+    </option>
+  </component>
 </project>
