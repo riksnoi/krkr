@@ -1,4 +1,4 @@
-# krkr
+# krkr-Video
 this is a online video streaming
 
 **echnical Architecture**
