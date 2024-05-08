@@ -4,6 +4,8 @@ import com.sky.krkr.dao.DemoDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Map;
+
 @Service
 public class DemoService {
 
@@ -12,6 +14,7 @@ public class DemoService {
 
     public Long query(Long id){
         return demoDao.query(id);
+
     }
 
 }
